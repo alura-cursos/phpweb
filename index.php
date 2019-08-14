@@ -1,9 +1,7 @@
 <?php
 
-require 'config.php';
-
 include 'Artigo.php';
-$artigo = new Artigo($mysql);
+$artigo = new Artigo();
 $artigos = $artigo->exibirTodos();
 
 ?>
