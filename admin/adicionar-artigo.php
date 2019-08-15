@@ -17,13 +17,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <head>
     <link rel="stylesheet" type="text/css" href="../style.css">
+    <meta charset="UTF-8">
     <title>Adicionar Artigo</title>
 </head>
 
 <body>
     <div id="container">
         <h1>Adicionar Artigo</h1>
-        <form action="adicionar-artigo.html" method="post">
+        <form action="adicionar-artigo.php" method="post">
             <p>
                 <label for="">Digite o título do artigo</label>
                 <input class="campo-form" type="text" name="titulo" id="titulo" />
