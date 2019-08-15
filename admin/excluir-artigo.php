@@ -1,3 +1,17 @@
+<?php
+
+require '../config.php';
+include '../src/Artigo.php';
+require '../src/redireciona.php';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $artigo = new Artigo($mysql);
+    $artigo->remover($_POST['id']);
+
+    redireciona('/blog/admin/index.php');
+}
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
