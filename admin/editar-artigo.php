@@ -34,8 +34,7 @@ $art = $artigo->encontrarPorId($_GET['id']);
             </p>
             <p>
                 <label for="conteudo">Digite o novo conteúdo do artigo</label>
-                <textarea class="campo-form" type="text" name="conteudo"
-                    id="titulo"><?php echo $art['conteudo']; ?></textarea>
+                <textarea class="campo-form" type="text" name="conteudo" id="titulo"><?php echo $art['conteudo']; ?></textarea>
             </p>
             <p>
                 <input type="hidden" name="id" value="<?php echo $art['id']; ?>" />
