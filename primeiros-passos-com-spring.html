@@ -17,7 +17,7 @@
             programadoras a fim de resolver desafios e aperfeiçoar as habilidades com algoritmos.
         </p>
         <div>
-            <a class="botao botao-block" href="index.html">Voltar</a>
+            <a class="botao botao-block" href="index.php">Voltar</a>
         </div>
     </div>
 </body>
